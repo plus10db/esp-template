@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
-#list(APPEND EXTRA_COMPONENTS_DIRS "../../src/components")
+list(APPEND EXTRA_COMPONENT_DIRS "../../src/components")
 
 set(COMPONENTS main)
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)

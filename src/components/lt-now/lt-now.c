@@ -1,7 +1,10 @@
-#include <stdio.h>
+#include <esp_log.h>
+
 #include "lt-now.h"
 
-void func(void)
-{
+const char* TAG = "lt-now";
 
+void lt_init_espnow(void)
+{
+    ESP_LOGI(TAG, "lt_init_espnow: entry");
 }
