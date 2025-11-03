@@ -1,4 +1,9 @@
-idf_component_register(SRCS "devtool.cpp"
+idf_component_register(
+    SRCS
+        "console.cpp"
+        "devtool.cpp"
     INCLUDE_DIRS "."
-    REQUIRES lt-now
+    REQUIRES
+        console
+        lt-now
     )
