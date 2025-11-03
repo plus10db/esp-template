@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
 
-set(COMPONENTS main)
+include(../tools/esp-idf/setenv.cmake)
+
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 
 project(l-and-t)
